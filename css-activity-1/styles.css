@@ -1,0 +1,26 @@
+/* I know you didn't explicitly say so, but it looked like all the examples were in the Verdana font so i made them all that */
+
+*{
+	font-family: Verdana;
+}
+
+.odd {
+	background-color: #EAABA9;
+	font-family: Verdana, "Deja Vu Sans", "sans-serif" ;
+}
+
+
+#two {
+	color:blue;
+	font-size: 36px;
+}
+
+.three {
+	font-size: 24px;
+}
+
+#four {
+	font-weight: bold;
+	background-color: #ACFB88;
+	font-size: 24px;
+}

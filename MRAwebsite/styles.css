@@ -1,0 +1,164 @@
+.header {
+	background-color: #AED8EB;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-bottom: 20px;
+	box-shadow: 6px 6px 5px #96A9B3;
+	box-sizing: border-box;
+	height: 135px;
+}
+
+.bigMRA {
+	text-align: center;
+	font-family: "Bungee Inline";
+	font-size: 22px;
+	color: #212122;
+}
+
+p {
+	margin: 5px;
+}
+
+#home {
+	height:100vh;
+}
+
+.bottomlinks {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.toplink {
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: #212122;
+	font-family: "Bungee Inline";
+}
+
+.toplink,.bottomlinks {
+	font-size: 18px;
+	gap: 10px;
+}
+
+body {
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+	background-color: #FAF7F2;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+
+}
+
+#annoyingone {
+	padding-right: 10px;
+}
+
+h1 {
+	margin:0px;
+	padding:0px;
+	font-size: 36px;
+}
+
+b {
+	padding: 0px 0px;
+	margin:0px;
+}
+
+.homebody {
+	display: flex;
+	flex-direction: row;
+	background-color: #FAF7F2;
+	flex: 1;
+}
+
+.lefthomeside {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+.righthomeside {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: "Lexend Deca";
+	text-align: center;
+	flex-grow: 1;
+}
+
+#groupphoto {
+	width: 90%;
+}
+
+#logo {
+	width: 40%;
+}
+
+.faces {
+	border-radius: 50%;
+}
+
+.studentheads {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 27px;
+	margin-bottom: 27px;
+}
+
+.ninahead , .spencerhead , .helenhead, .mathewshead {
+	text-align: center;
+	margin: 2px;
+}
+
+.facultysponsor {
+	display: flex;
+	margin-left: 9.75vw;
+	padding: 0px;
+	margin-top: 27px;
+	margin-bottom: 27px;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-around;
+	background-color: #AED8EB;
+	align-items: center;
+	font-family: "Bungee Inline";
+  	margin: 0px;
+}
+
+.sortatitle {
+	font-family: "Bungee Inline";
+	margin-left: 20px;
+}
+
+.info {
+	font-family: "Lexend Deca";
+	font-size: 14px;
+}
+
+.eventsbody {
+	display: flex;
+}
+
+.upcomingevents {
+	display: flex;
+	flex-direction: column;
+}
+
+.pastevents {
+	display: flex;
+	flex-direction: column;
+}
+
+.eventphotos {
+	height:50%;
+}

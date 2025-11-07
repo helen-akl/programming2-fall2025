@@ -8,8 +8,12 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+	<!-- Placing header at top of page -->
 	<div class="header">
 		<div class="toplink">
 			<a href="home.html"><b>HOME<b></a>
@@ -22,34 +26,39 @@
 			<a href="events.html" id="annoyingone"><b>EVENTS</b></a>
 		</div>
 	</div>
-
+		<!-- Creating a div for events body so I can make it display flex later on -->
 	<div class="eventsbody">
+		<!-- Seperating upcoming events and past events so they can be shown as two seperate columns -->
 		<div class="upcomingevents">
-			<h1>UPCOMING EVENTS</h1>
-			<p>Potluck</p>
+			<h1 class="eventsmain">UPCOMING EVENTS</h1>
+			<p id="sadpotluck">Potluck</p>
 			<img id="potluck" src="images/potluck.jpeg">
-			<p>MRA is looking forward to hosting a <u>potluck!!</u> Feel free to bring your cultural foods and share with the group. DATE: TBD </p>
+			<p id="anothersadpotluck">MRA is looking forward to hosting a <u>potluck!!</u> Feel free to bring your cultural foods and share with the group. DATE: TBD </p>
 		</div>
+
 		<div class="pastevents">
-			<h1>PAST EVENTS</h1>
+			<h1 class="eventsmain">PAST EVENTS</h1>
+			<div class="tinypastevents">
 				<div class="mapactivity">
 					<p class="eventstitles">MAP ACTIVITY</p>
 					<img class="eventphotos" src="images/mapactivity.png">
 				</div>
 				<div class="fundraiser">
 					<p class="eventstitles">FUNDRAISING FOR LUNAR NEW YEAR MX</p>
-					<img class="eventsphotos" src="images/fundraisers.png">
+					<img class="eventphotos" src="images/fundraisers.png">
 				</div>
 				<div class="foodsharing">
 					<p class="eventstitles">FOOD SHARING</p>
-					<img class="eventsphotos" src="images/foodsharing.png">
+					<img class="eventphotos" src="images/foodsharing.png">
 				</div>
+			</div>	
 		</div>
+
 	</div>
 
 
 
-
+	<!-- places footer at bottom of page -->
 	<div class="footer">
 		<p id="contact" >CONTACT US: mra@fwparker.org</p>
 		<a href="https://www.instagram.com/fwpmulti/">FIND US ON INSTAGRAM</a>

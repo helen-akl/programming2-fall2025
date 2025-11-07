@@ -10,6 +10,11 @@ console.log("The sum of my favorite numbers is " + favoriteNumber + favoriteNumb
 console.log(favoriteNumber + favoriteNumber + " is the sum of my favorite numbers");
 console.log("The sum of my favorite numbers is " + (favoriteNumber + favoriteNumber));
 
+
+
 function reveal() {
-	alert("hey you!");
+	// alert("hey you!");
+	const mySpan = document.getElementById("name");
+	mySpan.innerText = myName;
+
 }

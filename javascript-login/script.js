@@ -15,13 +15,16 @@ function login() {
 	attempts = attempts+1;
 
 	if(username == correct_username && password == correct_password) {
-		window.location.href="https://media.newyorker.com/photos/590965162179605b11ad602e/master/pass/130722_r23742_g2048.jpg"
+		document.getElementById("result").innerText="Correct!"
+		document.getElementById("result").style.color="Green"
 	}
 	else if (attempts>=3) {
-		alert("You ran out of attempts")
+		document.getElementById("result").innerText="You ran out of attempts!"
 		document.getElementById("login").disabled = true;
+		document.getElementById("result").style.color="Red"
 	}
 	else {
-		alert("Either your username or your password is incorrect")
+	document.getElementById("result").innerText="Try again!"
+	document.getElementById("result").style.color="Gold"	
 	}
 }

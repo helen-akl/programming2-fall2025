@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buzzfeed Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body id="body">
+
+    <!-- Radio buttons for programmingLanguage -->
+
+    <h1 class="header"> WHAT FAST FOOD RESTAURANT ARE YOU </h1>
+
+
+    <div class="question">
+
+        <p class="titles">What do you see in this Rorschach Test?</p>
+
+        <img class="tests" src="rorschach-blot-1.jpg">
+        <br>
+
+        <div class="selectors">
+
+            <input type="radio" id="deadrats" name="firstblot">
+            <label for="deadrats">Dead Rats</label><br>
+
+            <input type="radio" id="bears" name="firstblot">
+            <label for="Bears">Bears</label><br>
+            
+            <input type="radio" id="humans" name="firstblot">
+            <label for="humans">Two Humans</label>
+
+        </div>
+
+    </div>
+
+    <br><br>
+
+    <div class="question">
+
+        <p class="titles">What about this one?</p>
+
+        <img class="tests" src="rorschach-blot-2.jpg">
+        <br>
+
+        <div class="selectors">
+
+            <input type="radio" id="twofaces" name="secondblot">
+            <label for="twofaces">Two Faces</label><br>
+
+            <input type="radio" id="hat" name="secondblot">
+            <label for="hat">Hat</label><br>
+            
+            <input type="radio" id="animalskin" name="secondblot">
+            <label for="animalskin">Animal Skin</label>
+
+        </div>
+
+    </div>
+
+    <br><br>
+
+    <div class="question">
+
+        <p class="titles">Almost Done</p>
+
+        <img class="tests" src="rorschach-blot-3.jpg">
+        <br>
+
+        <div class="selectors">
+
+            <input type="radio" id="thumbsup" name="thirdblot">
+            <label for="thumbsup">Thumbs Up</label><br>
+
+            <input type="radio" id="beetle" name="thirdblot">
+            <label for="beetle">Beetle</label><br>
+            
+            <input type="radio" id="humanface" name="thirdblot">
+            <label for="humanface">Human Faces</label>
+
+        </div>
+
+    </div>
+
+    <br><br>
+
+    <div class="question">
+
+        <p class="titles">Last One!</p>
+
+        <img class="tests" src="rorschach-blot-4.jpg">
+        <br>
+
+        <div class="selectors">
+
+            <input type="radio" id="twofigures" name="fourthblot">
+            <label for="twofigures">Two Figures</label><br>
+
+            <input type="radio" id="racoon" name="fourthblot">
+            <label for="racoon">Racoon Face</label><br>
+            
+            <input type="radio" id="butterfly" name="fourthblot">
+            <label for="butterfly">butterfly</label>
+
+        </div>
+
+    
+
+    <br><br>
+
+    <button onclick="getResults()">Get Results!</button>
+
+    </div>
+
+    <br><br>
+
+    <div id="result">
+
+        <h2 id="bigresult"></h2>
+        <img id="imageresult" src=""></img>
+        <p id="littleresult"></p>
+
+    </div>
+
+</body>
+</html>

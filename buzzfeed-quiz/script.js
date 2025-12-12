@@ -111,8 +111,8 @@ function getResults() {
 
 	if(resultsCounter == 4) {
 		document.getElementById("body").style.backgroundColor="#cfbaf0";
-		const soundFour= new Audio("mean-girl-says-eww-430210.mp3");
-		soundFour.play();
+		const soundSix= new Audio("cricket-chirp-101026.mp3");
+		soundSix.play();
 		document.getElementById("bigresult").innerText="You are ... ARBY'S !"
 		document.getElementById("imageresult").src = "arbys.png"
 		document.getElementById("littleresult").innerText="Your answers suggest you are a little strange and clearly compensating for something. Look into self-help."

@@ -1,0 +1,163 @@
+.header {
+    background: #4571C8;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    align-items: left;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    justify-content: flex-end;
+    margin: 4px;
+}
+
+.homebutton {
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+.middle {
+    font-family: "Crimson Text";
+    color: #F5F5F5;
+    text-align: center;
+    font-size: 40px;
+    margin: 4px;
+}
+
+body{
+    margin: 0px;
+}
+
+p {
+    margin:0px;
+}
+
+.headerlinks {
+   color: #F5F5F5; 
+   text-decoration: none;
+   font-size: 20px;
+   gap: 10px;
+   margin: 0px 10px;
+}
+
+.statsbody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.statsbox {
+    display: flex;
+    font-family: "Crimson Text";
+    font-size: 28px;
+    border-width: 3px;
+    background-color: #D3D3D3;
+    border-color: darkgray;
+    border-style: solid;
+
+}
+
+.title {
+    margin: 15px;
+    font-family: "Crimson Text";
+    font-size: 35px;
+}
+
+.specificstat {
+    display: flex;
+    flex-direction: column;
+}
+
+#select {
+    font-size: 25px;
+}
+
+td {
+    min-width: 100px;
+    text-align: center;
+}
+
+tr {
+     height: 30px;
+}
+
+#statsbody {
+    font-family: "Crimon Text";
+}
+
+#photobody {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photospageimages {
+    height: 350px;
+}
+
+.photoanddescription {
+    display: flex;
+    flex-direction: column;
+    font-family: "Crimson Text";
+    align-items: center;
+    font-size:15px;
+    margin: 30px;
+}
+
+.schedulebody{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: "Crimson Text";
+}
+
+.schedulelocation , .scheduledates , .scheduleopponents , .results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.odd {
+    background-color: lightgrey;
+    padding: 0px 100px;
+}
+
+.homebody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Crimson Text";
+}
+
+#teamphoto {
+    height: 600px;
+    margin: 0 25px 25px;
+    25px
+}
+
+.hometitle {
+   font-family: "Crimson Text";
+   font-size: 50px;
+   margin-top: 20px; 
+}
+
+.welcomeblurb {
+    font-size: 20px;
+    width: 900px;
+    padding: 6px 8px;
+    margin: 0 0 0 10px;
+    line-height: 1.2;
+    white-space: normal;
+    overflow-wrap: break-word;
+    /* looked online for some of the formatting for this textbox */
+}
+
+.littlecomment {
+    margin: 25px 0px 10px 0px;
+}
